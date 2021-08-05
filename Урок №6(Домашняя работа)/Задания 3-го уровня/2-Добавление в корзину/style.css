@@ -1,0 +1,10 @@
+.product {
+    padding: 20px;
+    float: left;
+    border: 3px solid gold;
+    border-radius: 55px;
+}
+
+button {
+    display: block;
+}

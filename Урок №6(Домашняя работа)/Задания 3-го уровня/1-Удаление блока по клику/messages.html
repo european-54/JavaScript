@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=YcaootzSJayCwh_ATnabn3uw2khvcqeq8Qfe1y4tRXcqzzmNv3bCKBHaVwPTQMf0UeO4hV9_Bhjbqbtn-0D_WFZyCpu99O9FT9vFSYLa_F-s1_mUzmO3l2qzvIaxvLWD7PoqiHfQTLX1KIa0gQSI0nG2T13kxGe5h5s8JOVPxexXhxfY5ksY7AsFxV1cKSz7dLmcfjrXUN8m6Zv0-ERg9DnaxmzsFjan4njFWtfDjcIgXXkTg5EZUL8auB61LkwEbRh5NjdEG70cCProSjRVcL0dgwWk2XZ5Oce64JanCdhb8Uru59J8xcrBf6XK7QkE-iLYdKgiDLnq7W2ftUujQ6Bl5-toNV6toOrw_yZBUoHxqpzezjMYf8CHHttXfNq3vywA_YIYuDoOHzTOM59SLOhkaqrmNNJ0518yawVvvvbW_sqPF1H-GxA9VR7sYIu7PoAH-I6VJkTaO2ZW82BO1NYeUsqjBFZKtMCfmwmUPA8wi5mo1Qrw3CHtFjGkuIFtAKzCT84bR0v8nQrigC4JfOzUpCAp91Wq3jx-FtTUl_0lybTY8M5JX3ZsP6SCJ2AeveN03yKp3Cd-h2StIiAoIJ95a6l0V1hfgwFzza3NXGGxvR6CaD_nwr0OPxnSOPPH7GceZsu5z8grR6D-G7hgEFfvzJrFCKVD-sJWsyPDHYZRFdBElhklzXfIrh-CjR5gpDJEDm9RA_-gCiBTGEDyHk4R_GtwIZySa78aYP4rxsdZHEqHWioIKU6Que70elffW3ZAo5UPTO2HwZGStoH80TCOhsunt9fZWu55h0aXICV52td4gx2QF74zadWihYey8NSEEEKRBBO2lalT9tjgKsxisHC7jlQJc_f8R52t50PlbHXg_sj8yhAy82i5tyIbw2U9J_HLTvGXr_pYE9RZaRvGi01rfXKq8MJP3mTJB7I47r1P4vNmYPX36aE595d43WK-mTqC3oWTXnH9l5ZcahHHD25dW_1QTZCaE7_zpTA-pslrDd3gX6v77wtXBGazsxg1LOyq-3gfaf9RP3Clwz-PfLPxoBMP_yM8HYe0CBLR6ZixTs_-N9xyuKjagDqG0yzqBXCEaYmgVde66kTISHTACFsLJ4EBO8j1Qh3ucPseSBZL2mjvLgYIiva83bSuO6niTiO9_0kGRzgP_4aJI67x-NKhSR5zccBgoD_74XRESQq1i3i-JTFasEzyQhzUsUdmBeCdSLbUV8hzM-ZCYGiHrExhbozWA-nxe2JHRnHPS3_8IrOzrNJaf7sXz-IyNhqnGlq54KBkCgRyk_995w" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9kb2N2aWV3ZXIueWFuZGV4LnJ1L3ZpZXcvMC9zb3VyY2U_dXJsPXlhLWRpc2stcHVibGljJTNhJTJmJTJmTElkcWtNUzlVWWVTaGoxeTZLVUFvd0U0WWFRSENhaUhqcHp6dEdqaWNDdU9NMEFvQnglMmJGSkJGREhZMkRvZml2cSUyZko2YnBtUnlPSm9uVDNWb1huRGFnJTNkJTNkJTNhJTJmJUQxJTgwJUQwJUI1JUQxJTg4JUQwJUI1JUQwJUJEJUQwJUI4JUQwJUI1JTIwJUQwJTk0JUQwJTk3JTIwJUQxJTgzJUQxJTgwJUQwJUJFJUQwJUJBJTIwNiUyMCVEMCVCQSVEMSU4MyVEMSU4MCVEMSU4MSUyMGpzMS56aXAmYXJjaGl2ZS1wYXRoPSUyZiUyZjIlMjAlRDAlQjIlRDElOEIlRDAlQkYlRDAlQkUlRDAlQkIlRDAlQkQlRDAlQjglRDElODIlRDAlQjUlMjAlRDAlQkYlRDElODAlRDAlQjAlRDAlQkElRDElODIlRDAlQjglRDElODclRDAlQjUlRDElODElRDAlQkElRDAlQjglRDAlQjUlMjAlRDAlQjclRDAlQjAlRDAlQjQlRDAlQjAlRDAlQkQlRDAlQjglRDElOEYlMmYlRDAlQjclRDAlQjAlRDAlQjQlRDAlQjAlRDAlQkQlRDAlQjglRDElOEYlMjAzJTIwJUQxJTgzJUQxJTgwJUQwJUJFJUQwJUIyJUQwJUJEJUQxJThGJTJmMS0lRDElODMlRDAlQjQlRDAlQjAlRDAlQkIlRDAlQjUlRDAlQkQlRDAlQjglRDAlQjVfJUQwJUIxJUQwJUJCJUQwJUJFJUQwJUJBJUQwJUIwXyVEMCVCRiVEMCVCRV8lRDAlQkElRDAlQkIlRDAlQjglRDAlQkElRDElODMlMmZtZXNzYWdlcy5odG1sJnRzPTE3YjEyMTAyYTdhJnRva2VuPTlIc3lSV1p4SVpwUUtkM3JMTlJvWmclM2QlM2QmbmFtZT0lRDElODAlRDAlQjUlRDElODglRDAlQjUlRDAlQkQlRDAlQjglRDAlQjUlMjAlRDAlOTQlRDAlOTclMjAlRDElODMlRDElODAlRDAlQkUlRDAlQkElMjA2JTIwJUQwJUJBJUQxJTgzJUQxJTgwJUQxJTgxJTIwanMxLnppcCZkc2lkPTIyNTBjNDJkZWIxNTVmNTU5Yzk4ZDY2M2M3MDU3YjM0"/></head>
+
+<body>
+    <div class="container">
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="alert alert-info alert-dismissible fade show" role="alert">
+            <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Задание. Надо сделать, чтобы по клику на крестик исчезало тот блок
+    с сообщением, в котором этот крестик находится. Для этого:
+    1. Получите все кнопки, например с помощью querySelectorAll 
+    2. Переберите полученную коллекцию, например с помощью forEach
+    2.1 Методу forEach передавайте callback-функцию с параметром button
+    3. Каждому button назначьте обработчик клика, с помощью addEventListener,
+    а самим обработчиком клика будет функция closeClickHandler (в коде ниже)
+    4. В функции closeClickHandler из объекта события event обратитесь
+    к currentTarget, затем обратитесь к родительскому узлу, затем к свойству
+    style, наконец сделайте display: none
+    -->
+
+    <script src="code-1.js">
+        
+    </script>
+</body>
+
+</html>

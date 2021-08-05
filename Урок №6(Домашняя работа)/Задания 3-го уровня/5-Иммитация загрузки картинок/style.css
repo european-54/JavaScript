@@ -1,0 +1,30 @@
+body {
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(7, 500px);
+    grid-gap: 35px;
+}
+
+.product {
+    border: 8px solid brown;
+    padding: 5px;
+    text-align: center;
+}
+
+.imgWrap {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+img {
+    max-width: 100%;
+}
+
+img[src*=".gif"] {
+    width: 150px;
+}
